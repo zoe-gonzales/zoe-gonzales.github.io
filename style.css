@@ -8,6 +8,7 @@ p {
     line-height: 2;
     color: lightslategray;
     opacity: .6;
+    padding: 40px;
 }
 
 h1 {
@@ -15,4 +16,8 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     line-height: 2;
     color: grey;
+    padding-left: 40px;
+    border-bottom-style: double;
+    border-bottom-width: 4px;
+    border-bottom-color: grey;
 }
