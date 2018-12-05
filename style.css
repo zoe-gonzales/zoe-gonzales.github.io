@@ -1,0 +1,18 @@
+* {
+    background-color: aquamarine;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2;
+    color: lightslategray;
+    opacity: .6;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2;
+    color: grey;
+}
