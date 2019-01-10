@@ -1,23 +1,28 @@
 
 body {
     font-family: 'Didact Gothic', sans-serif;
-    background-color: #00ABFF;
+    background-image: url(images/background.png);
 }
 
 nav {
-    background-color: #FFAF4C;
-    color: #B26200;
+    background-color: #FFC276;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #1D3440;
 }
 
 .jumbotron-fluid {
     height: 30rem;
+    background-color: #A5DEFF;
 }
 
 .display-4 {
-    color: #B26200;
+    color: #1D3440;
 }
 
-.fab {
+.fa-js {
     font-size: 5rem;
     padding: 0 2rem;
     margin: 1rem 2rem;
@@ -25,7 +30,8 @@ nav {
 
 .about {
     margin-top: -2rem;
-    background-color: #FFAF4C;
+    background-color: #FFC276;
+    color: #1D3440;
 }
 
 .bioImage {
@@ -35,6 +41,7 @@ nav {
 .title {
     font-size: 3rem;
     margin: 3rem 0;
+    color: #1D3440;
 }
 
 .text {
@@ -45,7 +52,13 @@ nav {
     overflow: scroll;
 }
 
+
+
 /* Projects */
+
+.project-title {
+    color: #FFC276;
+}
 
 .card {
     margin: 2rem 0;
@@ -53,5 +66,44 @@ nav {
 
 .card-text {
     font-size: 1.25rem;
+    color: #1D3440;
 }
 
+.card-body {
+    background-color: #FFC276;
+}
+
+.btn {
+    background-color: #FFC276;
+    border: 1px solid #1D3440;
+    margin: 0 .2rem;
+}
+
+.btn:hover {
+    background-color: #CC6B48;
+    border: 1px solid #1D3440;
+}
+
+/* Contact */
+
+.contact {
+    background-color: #A5DEFF;
+    padding-bottom: 2rem;
+}
+
+.fa-envelope,
+.fa-github,
+.fa-linkedin-in {
+    font-size: 3rem;
+    /* padding: 0 2rem; */
+    margin: 0 2rem;
+    color: #1D3440;
+}
+
+.fa-envelope:hover,
+.fa-github:hover,
+.fa-linkedin-in:hover,
+a:hover {
+    /* color: #4859CC; */
+    color: #CC6B48;
+}
