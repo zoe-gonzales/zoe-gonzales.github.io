@@ -1,11 +1,12 @@
 
 body {
     font-family: 'Didact Gothic', sans-serif;
-    background-color: skyblue;
+    background-color: #00ABFF;
 }
 
 nav {
     background-color: #FFAF4C;
+    color: #B26200;
 }
 
 .jumbotron-fluid {
@@ -48,5 +49,9 @@ nav {
 
 .card {
     margin: 2rem 0;
+}
+
+.card-text {
+    font-size: 1.25rem;
 }
 
