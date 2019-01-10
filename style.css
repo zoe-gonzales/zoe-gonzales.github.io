@@ -1,42 +1,52 @@
-* {
-    background-color: aquamarine;
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: skyblue;
 }
 
-p {
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 2;
-    color: lightslategray;
-    opacity: .6;
-    padding: 40px;
+nav {
+    background-color: #FFAF4C;
 }
 
-h1 {
-    font-size: 45px;
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 2;
-    color: grey;
-    padding-left: 40px;
-    border-bottom-style: double;
-    border-bottom-width: 4px;
-    border-bottom-color: grey;
+.jumbotron-fluid {
+    height: 30rem;
 }
 
-h2 {
-    font-size: 35px;
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 2;
-    color: grey;
-    padding-left: 40px;
+.display-4 {
+    color: #B26200;
 }
 
-a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 2;
-    color: lightslategray;
-    opacity: .6;
-    padding: 10px 40px 40px 40px;
+.fab {
+    font-size: 5rem;
+    padding: 0 2rem;
+    margin: 1rem 2rem;
 }
+
+.about {
+    margin-top: -2rem;
+    background-color: #FFAF4C;
+}
+
+.bioImage {
+    width: 12rem;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+
+.text {
+    font-size: 1.75rem;
+    line-height: 2;
+    padding: .5rem;
+    height: 35rem;
+    overflow: scroll;
+}
+
+/* Projects */
+
+.card {
+    margin: 2rem 0;
+}
+
