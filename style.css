@@ -16,11 +16,17 @@ nav {
 
 .jumbotron-fluid {
     height: 30rem;
-    background-color: #A5DEFF;
+    /* background-color: #A5DEFF; */
+    background-image: url(images/jumbo.jpg);
+    background-size: cover;
 }
 
 .display-4 {
     color: #1D3440;
+}
+
+.lead {
+    font-size: 2rem;
 }
 
 .fa-js {
