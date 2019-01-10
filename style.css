@@ -2,6 +2,7 @@
 body {
     font-family: 'Didact Gothic', sans-serif;
     background-image: url(images/background.png);
+    background-color: #FFC276;
 }
 
 nav {
@@ -95,8 +96,7 @@ nav {
 .fa-github,
 .fa-linkedin-in {
     font-size: 3rem;
-    /* padding: 0 2rem; */
-    margin: 0 2rem;
+    padding-right: 2.5rem;
     color: #1D3440;
 }
 
@@ -106,4 +106,14 @@ nav {
 a:hover {
     /* color: #4859CC; */
     color: #CC6B48;
+}
+
+.social {
+    margin: 0 2rem 2rem 1rem; 
+}
+
+/* Footer */
+.footer {
+    background-color: #FFC276;
+    height: 2rem;
 }
