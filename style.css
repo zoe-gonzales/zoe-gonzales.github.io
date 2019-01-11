@@ -12,11 +12,12 @@ nav {
 .navbar-brand,
 .nav-link {
     color: #1D3440;
+    letter-spacing: .05rem;
+    font-size: 1.3rem;
 }
 
 .jumbotron-fluid {
     height: 30rem;
-    /* background-color: #A5DEFF; */
     background-image: url(images/jumbo.jpg);
     background-size: 100% 100%;
 }
@@ -26,6 +27,7 @@ nav {
     font-size: 6rem;
     line-height: 1.5;
     margin-top: -1rem;
+    letter-spacing: .1rem;
 }
 
 .lead {
@@ -36,6 +38,7 @@ nav {
     margin-top: -2rem;
     background-color: #FFC276;
     color: #1D3440;
+    padding-bottom: 7rem;
 }
 
 .bioImage {
@@ -46,6 +49,7 @@ nav {
     font-size: 3rem;
     margin: 3rem 0;
     color: #1D3440;
+    letter-spacing: .1rem;
 }
 
 .text {
@@ -54,6 +58,7 @@ nav {
     padding: .5rem;
     height: 35rem;
     overflow: scroll;
+    letter-spacing: .05rem;
 }
 
 /* Projects */
@@ -109,7 +114,6 @@ nav {
 .fa-github:hover,
 .fa-linkedin-in:hover,
 a:hover {
-    /* color: #4859CC; */
     color: #CC6B48;
 }
 
