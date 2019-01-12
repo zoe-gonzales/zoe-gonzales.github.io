@@ -30,10 +30,6 @@ nav {
     letter-spacing: .1rem;
 }
 
-.lead {
-    font-size: 2rem;
-}
-
 .about {
     margin-top: -2rem;
     background-color: #FFC276;
@@ -51,33 +47,26 @@ nav {
 .text {
     font-size: 1.8rem;
     line-height: 2;
+    letter-spacing: .05rem;
     padding: .5rem;
     height: 35rem;
-    overflow: scroll;
-    letter-spacing: .05rem;
+    overflow-y: scroll;
 }
+
+.text::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
 
 /* Projects */
 
 .projects {
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
 .project-title {
     color: #FFC276;
-}
-
-.card {
-    margin: 2rem 0;
-}
-
-.card-text {
-    font-size: 1.25rem;
-    color: #1D3440;
-}
-
-.card-body {
-    background-color: #FFC276;
 }
 
 .btn {
@@ -87,7 +76,7 @@ nav {
 }
 
 .btn:hover {
-    background-color: rgba(204,107,72,.5);
+    background-color: rgba(204,107,72,.6);
     border: 1px solid #1D3440;
 }
 
@@ -98,7 +87,9 @@ nav {
     overflow: hidden;
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    background-image: url(images/background.png);
+    margin-bottom: 8rem;
 }
 
 .panel {
@@ -153,7 +144,7 @@ nav {
 .panel.open-active > *:last-child {transform: translateY(0);}
 
 .panel.open {
-    flex: 7;
+    flex: 8;
     font-size: 2rem;
 }
 
