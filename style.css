@@ -58,7 +58,6 @@ nav {
     background-color: transparent;
 }
 
-
 /* Projects */
 
 .projects {
@@ -83,19 +82,16 @@ nav {
 /* Project Panels */
 .panels {
     display: flex;
-    min-height: 80vh;
+    min-height: 100vh;
     overflow: hidden;
     width: 100%;
     padding: 0;
     margin: 0 auto;
-    background-image: url(images/background.png);
-    margin-bottom: 8rem;
 }
 
 .panel {
     text-align: center;
     align-items: center;
-    background-size: cover;
     display: flex;
     flex: 1;
     transition: 
@@ -103,8 +99,8 @@ nav {
         flex .3s;
     justify-content: center;
     flex-direction: column;
-    font-size: 1.75rem;
-    color: #1D3440;
+    font-size: 2.5rem;
+    background-size: cover;
 }
 
 .panel > * {
@@ -115,27 +111,32 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255,194,118,.7);
+    /* background-color: rgba(255,194,118,.7); */
 }
 
 .panel1 {
-    background-image: url(images/word-guess.png);
+    background-image: url(images/landscape.jpg);
+    color: #1D3440;
 }
 
 .panel2 {
-    background-image: url(images/rpg.png);
+    background-image: url(images/trees.jpg);
+    color: #FFC276;
 }
 
 .panel3 {
-    background-image: url(images/crystal.png);
+    background-image: url(images/field.jpg);
+    color: #CC6B48;
 }
 
 .panel4 {
-    background-image: url(images/rpg.png);
+    background-image: url(images/flowers.jpg);
+    color: #FFC276;
 }
 
 .panel5 {
-    background-image: url(images/rpg.png);
+    background-image: url(images/clouds.jpg);
+    color: #1D3440;
 }
 
 .panel > *:first-child {transform: translateY(-100%);}
@@ -145,11 +146,11 @@ nav {
 
 .panel.open {
     flex: 8;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .panel p:nth-child(2) {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 /* Contact */
