@@ -1,84 +1,3 @@
-
-body {
-    font-family: 'Didact Gothic', sans-serif;
-    background-image: url(images/background.png);
-    background-color: #FFC276;
-}
-
-nav {
-    background-color: #FFC276;
-}
-
-.navbar-brand,
-.nav-link {
-    color: #1D3440;
-    letter-spacing: .05rem;
-    font-size: 1.3rem;
-}
-
-.jumbotron-fluid {
-    height: 30rem;
-    background-image: url(images/jumbo.jpg);
-    background-size: 100% 100%;
-}
-
-.display-4 {
-    color: #1D3440;
-    font-size: 6rem;
-    line-height: 1.5;
-    margin-top: -1rem;
-    letter-spacing: .1rem;
-}
-
-.about {
-    margin-top: -2rem;
-    background-color: #FFC276;
-    color: #1D3440;
-    padding-bottom: 7rem;
-}
-
-.title {
-    font-size: 3rem;
-    margin: 3rem 0;
-    color: #1D3440;
-    letter-spacing: .1rem;
-}
-
-.text {
-    font-size: 1.8rem;
-    line-height: 2;
-    letter-spacing: .05rem;
-    padding: .5rem;
-    height: 35rem;
-    overflow-y: scroll;
-}
-
-.text::-webkit-scrollbar {
-    width: 6px;
-    background-color: transparent;
-}
-
-/* Projects */
-
-.projects {
-    padding-bottom: 2rem;
-}
-
-.project-title {
-    color: #FFC276;
-}
-
-.btn {
-    background-color: #FFC276;
-    border: 1px solid #1D3440;
-    margin: 0 .2rem;
-}
-
-.btn:hover {
-    background-color: rgba(204,107,72,.6);
-    border: 1px solid #1D3440;
-}
-
 /* Index / Welcome page Panels */
 .panels {
     display: flex;
@@ -175,6 +94,106 @@ nav {
 
 .linkedin:hover {
     color: #C0E9FF;
+}
+
+/* ===================================================================== */
+
+/* Start of Main.html */
+
+/* Navigation bar */
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    background-image: url(images/background.png);
+    background-color: #FFC276;
+}
+
+nav {
+    background-color: #FFC276;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #1D3440;
+    letter-spacing: .05rem;
+    font-size: 1.3rem;
+}
+
+.jumbotron-fluid {
+    height: 30rem;
+    background-image: url(images/jumbo.jpg);
+    background-size: 100% 100%;
+}
+
+.display-4 {
+    color: #1D3440;
+    font-size: 6rem;
+    line-height: 1.5;
+    margin-top: -1rem;
+    letter-spacing: .1rem;
+}
+
+.about {
+    margin-top: -2rem;
+    background-color: #FFC276;
+    color: #1D3440;
+    padding-bottom: 7rem;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 3rem 0;
+    color: #1D3440;
+    letter-spacing: .1rem;
+}
+
+.text {
+    font-size: 1.8rem;
+    line-height: 2;
+    letter-spacing: .05rem;
+    padding: .5rem;
+    height: 35rem;
+    overflow-y: scroll;
+}
+
+.text::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+/* Projects */
+
+.projects {
+    padding-bottom: 4rem;
+}
+
+.project-title {
+    color: #FFC276;
+}
+
+.btn {
+    background-color: rgba(204,107,72,.75);
+    border: 1px solid #1D3440;
+    margin: 0 .2rem;
+}
+
+.btn:hover {
+    background-color: #FFC276;
+    border: 1px solid #1D3440;
+}
+
+.card {
+    margin: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.just-title,
+.card-text {
+    
+    box-shadow: inset 0 0 0 1000px rgba(29, 52, 64,.8);
+    color: #FFC276;
+    padding: .4rem;
 }
 
 /* Contact */
