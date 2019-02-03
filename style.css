@@ -79,7 +79,7 @@ nav {
     border: 1px solid #1D3440;
 }
 
-/* Project Panels */
+/* Index / Welcome page Panels */
 .panels {
     display: flex;
     min-height: 100vh;
@@ -111,31 +111,35 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgba(255,194,118,.7); */
 }
 
 .panel1 {
     background-image: url(images/landscape.jpg);
-    color: #1D3440;
+    box-shadow: inset 0 0 0 1000px rgba(135, 206, 235,.5);
+    color: #8b0000;
 }
 
 .panel2 {
     background-image: url(images/trees.jpg);
-    color: #FFC276;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0,.2);
+    color: #FF9400;
 }
 
 .panel3 {
-    background-image: url(images/field.jpg);
-    color: #CC6B48;
+    background-image: url(images/boulder.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(16,64,16,.5);
+    color: #C0E9FF;
 }
 
 .panel4 {
-    background-image: url(images/flowers.jpg);
-    color: #FFC276;
+    background-image: url(images/clouds.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(240,248,255,.3);
+    color: #3A677F;
 }
 
 .panel5 {
-    background-image: url(images/clouds.jpg);
+    background-image: url(images/flowers.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(255,142,179,.5);
     color: #1D3440;
 }
 
@@ -150,7 +154,27 @@ nav {
 }
 
 .panel p:nth-child(2) {
+    font-size: 3.2rem;
+}
+
+.welcome-icon {
     font-size: 3.5rem;
+}
+
+.github {
+    color: #8b0000;
+}
+
+.github:hover {
+    color: #C0E9FF;
+}
+
+.linkedin {
+    color: #1D3440;
+}
+
+.linkedin:hover {
+    color: #C0E9FF;
 }
 
 /* Contact */
