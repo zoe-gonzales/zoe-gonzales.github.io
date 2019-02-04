@@ -133,6 +133,7 @@ nav {
     letter-spacing: .1rem;
 }
 
+/* About section */
 .about {
     margin-top: -2rem;
     background-color: #FFC276;
@@ -159,6 +160,14 @@ nav {
 .text::-webkit-scrollbar {
     width: 6px;
     background-color: transparent;
+}
+
+.skills-heading {
+    font-weight: bold;
+}
+
+.skill {
+    color: #CC6B48;
 }
 
 /* Projects */
