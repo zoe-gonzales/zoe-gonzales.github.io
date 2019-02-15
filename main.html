@@ -7,7 +7,7 @@
     <title>Z.Gonzales Portfolio</title>
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
     <!-- CSS Reset -->
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/reset.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!-- Google Fonts -->
@@ -15,34 +15,34 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!-- Local Styles -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Zoë Gonzales</a>
+        <a class="navbar-brand" href="index.html">Zoë Gonzales</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#title">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#projects">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
     </nav>
-    <!-- Jumbotron / Welcome Animation / Skills -->
-    <div class="jumbotron jumbotron-fluid">
+    <!-- Jumbotron Title -->
+    <div class="jumbotron jumbotron-fluid" id="title">
         <div class="container">
             <h1 class="display-4">
                 Frontend Web
@@ -52,7 +52,7 @@
         </div>
     </div>
     <!-- About Section -->
-    <div class="jumbotron about rounded-0">
+    <div class="jumbotron about rounded-0" id="about">
         <div class="container">
                 <div class="row">
                     <div class="col-md-1"></div>
@@ -63,114 +63,135 @@
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <div class="text">
-                            <p>Hi! My name is Zoë and I'm a front-end developer with experience in customer service, resume writing, and career services. I decided to pursue Web Development after working at a startup and developing a curiosity for technology. Since enrolling in the Full Stack Web Development Bootcamp at Denver University, I’ve come to love every stage in the process of building an app: the initial problem solving and wire-framing of a project, building the logic with Javascript, and transforming the UI with CSS and Bootstrap. Through my experiences, I’ve developed strong skills in communication and cross-team collaboration. Working at several rapidly growing companies trained me to handle issues quickly, adapt to ongoing changes, and always strive for improvement.
-                                </p>
-                            <p class="skills-heading">Skills:</p>
-                            <ul>
-                                <li class="skill">HTML</li>
-                                <li class="skill">CSS</li>
-                                <li class="skill">Javascript</li>
-                                <li class="skill">JQuery</li>
-                            </ul>
-                        </div>
-                        
-                    </div>
+                            <div class="container">
+                                    <div class="row">
+                                            <p>Hi! My name is Zoë and I'm a front-end developer with experience in customer service and career services. I decided to pursue Web Development after realizing that I wanted a dynamic career that would always challenge and excite me. Since starting the Full Stack Web Development Bootcamp at Denver University, I’ve come to appreciate every stage in the process of creating a client-side app: the initial problem solving and wire-framing of a project, building the logic with Javascript, transforming the UI with CSS, and solving the inevitable bugs (it's true, I do like debugging). Through my experiences, I’ve developed strong skills in communication and cross-team collaboration. I truly enjoy getting to know my team members and collaborating on projects that make an impact. My experience working at rapidly growing companies taught me to handle issues quickly, adapt to constant change, and always strive for improvement.
+                                            </p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <p class="skills-heading"> - Skills -</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <ul>
+                                                    <li class="skill text-center">HTML</li>
+                                                    <li class="skill text-center">CSS</li>
+                                                    <li class="skill text-center">AJAX</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <ul>
+                                                    <li class="skill text-center">Javascript</li>
+                                                    <li class="skill text-center">jQuery</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
                     <div class="col-md-1"></div>
                 </div>
         </div>
     </div>
-
     <!-- Projects -->
-    <div class="container projects">
+    <div class="container projects" id="projects">
         <!-- Row 1 -->
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10 project-title">Projects</div>
             <div class="col-md-1"></div>
         </div>
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
-                <div class="card">
-                    <img src="images/giphy.png" class="card-img-top" alt="thumbnail">
-                    <div class="card-body">
-                        <h5 class="card-title">90s Pick-a-gif</h5>
-                        <p class="card-text">This game uses the Giphy API and jQuery to retrieve and show gifs dynamically.</p>
-                        <a href="https://github.com/zoe-gonzales/pick-a-gif-90s" class="btn btn-primary" target="_blank">Github</a>
-                        <a href="https://zoe-gonzales.github.io/pick-a-gif-90s/" class="btn btn-primary" target="_blank">Live</a>
+        <div class="card-container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div class="card">
+                        <img src="images/giphy.png" class="card-img-top" alt="thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">90s Pick-a-gif</h5>
+                            <p class="card-text">This game uses the Giphy API and jQuery to retrieve and show gifs dynamically.</p>
+                            <a href="https://github.com/zoe-gonzales/pick-a-gif-90s" class="btn btn-primary" target="_blank">Github</a>
+                            <a href="https://zoe-gonzales.github.io/pick-a-gif-90s/" class="btn btn-primary" target="_blank">Live</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-5">
-                <div class="card">
-                    <img src="images/trivia.png" class="card-img-top" alt="thumbnail">
-                    <div class="card-body">
-                        <h5 class="card-title">Trivia Game</h5>
-                        <p class="card-text">Space-themed trivia game demonstrating the use of Javascript timeouts.</p>
-                        <a href="https://github.com/zoe-gonzales/TriviaGame" class="btn btn-primary" target="_blank">Github</a>
-                        <a href="https://zoe-gonzales.github.io/TriviaGame/" class="btn btn-primary" target="_blank">Live</a>
+                <div class="col-md-5">
+                    <div class="card">
+                        <img src="images/trivia.png" class="card-img-top" alt="thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Trivia Game</h5>
+                            <p class="card-text">Space-themed trivia game demonstrating the use of Javascript timeouts.</p>
+                            <a href="https://github.com/zoe-gonzales/TriviaGame" class="btn btn-primary" target="_blank">Github</a>
+                            <a href="https://zoe-gonzales.github.io/TriviaGame/" class="btn btn-primary" target="_blank">Live</a>
+                        </div>
                     </div>
                 </div>
+                <div class="col-md-1"></div>
             </div>
-            <div class="col-md-1"></div>
+            <!-- Row 2 -->
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div class="card">
+                        <img src="images/to-do.png" class="card-img-top" alt="thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Just Do It!</h5>
+                            <p class="card-text">To Do list maker that uses localStorage to retrieve and display user's input. This app is fully mobile responsive.</p>
+                            <a href="https://github.com/zoe-gonzales/productivity-app" class="btn btn-primary" target="_blank">Github</a>
+                            <a href="https://zoe-gonzales.github.io/productivity-app/" class="btn btn-primary" target="_blank">Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card">
+                        <img src="images/crystal.png" class="card-img-top" alt="thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Crystal Collectors</h5>
+                            <p class="card-text">Simple click game made with jQuery where the user clicks on the crystals until they reach the target number exactly.</p>
+                            <a href="https://github.com/zoe-gonzales/Crystal-Collectors" class="btn btn-primary" target="_blank">Github</a>
+                            <a href="https://zoe-gonzales.github.io/Crystal-Collectors/" class="btn btn-primary" target="_blank">Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <!-- Row 3 -->
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div class="card">
+                        <img src="images/rpg.png" class="card-img-top" alt="thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">RPG</h5>
+                            <p class="card-text">Multi-player game created with jQuery and Javascript. User selects a player and fights opponents until they win or lose the game.</p>
+                            <a href="https://github.com/zoe-gonzales/mean-girls-rpg" class="btn btn-primary" target="_blank">Github</a>
+                            <a href="https://zoe-gonzales.github.io/mean-girls-rpg/" class="btn btn-primary" target="_blank">Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card">
+                        <img src="images/word-guess.png" class="card-img-top" alt="thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Word Guess Game</h5>
+                            <p class="card-text">Spongebob-themed hangman game built with Javascript, jQuery, and Bootstrap.</p>
+                            <a href="https://github.com/zoe-gonzales/Word-Guess-Game" class="btn btn-primary" target="_blank">Github</a>
+                            <a href="https://zoe-gonzales.github.io/Word-Guess-Game/" class="btn btn-primary" target="_blank">Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
         </div>
-        <!-- Row 2 -->
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
-                <div class="card">
-                    <img src="images/to-do.png" class="card-img-top" alt="thumbnail">
-                    <div class="card-body">
-                        <h5 class="card-title">Just Do It!</h5>
-                        <p class="card-text">To Do list maker that uses localStorage to retrieve and display user's input. This app is fully mobile responsive.</p>
-                        <a href="https://github.com/zoe-gonzales/productivity-app" class="btn btn-primary" target="_blank">Github</a>
-                        <a href="https://zoe-gonzales.github.io/productivity-app/" class="btn btn-primary" target="_blank">Live</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="card">
-                    <img src="images/crystal.png" class="card-img-top" alt="thumbnail">
-                    <div class="card-body">
-                        <h5 class="card-title">Crystal Collectors</h5>
-                        <p class="card-text">Simple click game made with jQuery where the user clicks on the crystals until they reach the target number exactly.</p>
-                        <a href="https://github.com/zoe-gonzales/Crystal-Collectors" class="btn btn-primary" target="_blank">Github</a>
-                        <a href="https://zoe-gonzales.github.io/Crystal-Collectors/" class="btn btn-primary" target="_blank">Live</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-        </div>
-        <!-- Row 3 -->
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
-                <div class="card">
-                    <img src="images/rpg.png" class="card-img-top" alt="thumbnail">
-                    <div class="card-body">
-                        <h5 class="card-title">RPG</h5>
-                        <p class="card-text">Multi-player game created with jQuery and Javascript. User selects a player and fights opponents until they win or lose the game.</p>
-                        <a href="https://github.com/zoe-gonzales/mean-girls-rpg" class="btn btn-primary" target="_blank">Github</a>
-                        <a href="https://zoe-gonzales.github.io/mean-girls-rpg/" class="btn btn-primary" target="_blank">Live</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="card">
-                    <img src="images/word-guess.png" class="card-img-top" alt="thumbnail">
-                    <div class="card-body">
-                        <h5 class="card-title">Word Guess Game</h5>
-                        <p class="card-text">Spongebob-themed hangman game built with Javascript, jQuery, and Bootstrap.</p>
-                        <a href="https://github.com/zoe-gonzales/Word-Guess-Game" class="btn btn-primary" target="_blank">Github</a>
-                        <a href="https://zoe-gonzales.github.io/Word-Guess-Game/" class="btn btn-primary" target="_blank">Live</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-        </div>
+
     </div> 
     <!-- Contact -->
-    <div class="jumbtron contact">
+    <div class="jumbtron contact" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-1"></div>

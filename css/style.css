@@ -33,31 +33,31 @@
 }
 
 .panel1 {
-    background-image: url(images/landscape.jpg);
+    background-image: url(../images/landscape.jpg);
     box-shadow: inset 0 0 0 1000px rgba(135, 206, 235,.5);
     color: #8b0000;
 }
 
 .panel2 {
-    background-image: url(images/trees.jpg);
+    background-image: url(../images/trees.jpg);
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0,.2);
     color: #FF9400;
 }
 
 .panel3 {
-    background-image: url(images/boulder.jpg);
+    background-image: url(../images/boulder.jpg);
     box-shadow: inset 0 0 0 1000px rgba(16,64,16,.5);
     color: #C0E9FF;
 }
 
 .panel4 {
-    background-image: url(images/clouds.jpg);
+    background-image: url(../images/clouds.jpg);
     box-shadow: inset 0 0 0 1000px rgba(240,248,255,.3);
     color: #3A677F;
 }
 
 .panel5 {
-    background-image: url(images/flowers.jpg);
+    background-image: url(../images/flowers.jpg);
     box-shadow: inset 0 0 0 1000px rgba(255,142,179,.5);
     color: #1D3440;
 }
@@ -98,18 +98,24 @@
 
 /* ===================================================================== */
 
-/* Start of Main.html */
+/* Start of main.html */
 
 /* Navigation bar */
 
 body {
     font-family: 'Didact Gothic', sans-serif;
-    background-image: url(images/background.png);
+    background-image: url(../images/background.png);
     background-color: #FFC276;
 }
 
 nav {
     background-color: #FFC276;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .navbar-brand,
@@ -121,7 +127,7 @@ nav {
 
 .jumbotron-fluid {
     height: 30rem;
-    background-image: url(images/jumbo.jpg);
+    background-image: url(../images/jumbo.jpg);
     background-size: 100% 100%;
 }
 
@@ -129,7 +135,7 @@ nav {
     color: #1D3440;
     font-size: 6rem;
     line-height: 1.5;
-    margin-top: -1rem;
+    margin-top: 1.5rem;
     letter-spacing: .1rem;
 }
 
@@ -164,6 +170,7 @@ nav {
 
 .skills-heading {
     font-weight: bold;
+    text-align: center;
 }
 
 .skill {
@@ -174,6 +181,16 @@ nav {
 
 .projects {
     padding-bottom: 4rem;
+}
+
+.card-container {
+    height: 75rem;    
+    overflow-y: scroll;
+}
+
+.card-container::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .project-title {
