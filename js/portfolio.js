@@ -1,7 +1,11 @@
 
 // Code for panel toggle on index.html
-
 var panels = document.querySelectorAll(".panel");
+
+document.onload = function() {
+    panels.classList.toggle("open-active");
+}
+
 function toggleView() {
     this.classList.toggle("open");
 }
@@ -14,5 +18,3 @@ function toggleText(e) {
 
 panels.forEach(panel => panel.addEventListener("click", toggleView));
 panels.forEach(panel => panel.addEventListener("transitionend", toggleText));
-
-// ============================================================================
