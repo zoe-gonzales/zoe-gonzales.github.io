@@ -2,9 +2,11 @@
 // Code for panel toggle on index.html
 var panels = document.querySelectorAll(".panel");
 
-document.onload = function() {
-    panels.classList.toggle("open-active");
-}
+panels.forEach(function(panel){
+    if (panel.classList.contains('open-active')) {
+        panel.classList.remove('open-active');
+    }
+})
 
 function toggleView() {
     this.classList.toggle("open");
