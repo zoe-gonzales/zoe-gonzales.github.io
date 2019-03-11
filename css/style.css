@@ -1,4 +1,4 @@
-/* Index / Welcome page Panels */
+/* Index / Welcome page Panel Animation */
 .panels {
     display: flex;
     min-height: 100vh;
@@ -265,10 +265,6 @@ a:hover {
 }
 
 /* Media Queries */
-
-@media screen and (max-width: 980px) {
-
-}
 
 @media screen and (max-width: 768px) {
     .display-4 {
