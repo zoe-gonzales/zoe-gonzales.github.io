@@ -275,7 +275,23 @@ a:hover {
         font-size: 5.2rem;
         margin-top: 2.5rem;
     }
-    
+
+    .welcome-icon {
+        font-size: 2.5rem;
+    }
+
+    .panel p:nth-child(2) {
+        font-size: 2.5rem;
+    }
+
+    .panel {
+        font-size: 1.75rem;
+    }    
+
+    .panel2,
+    .panel4 {
+        display: none;
+    }
 }
 
 /* nav toggler on mobile screens */
@@ -290,6 +306,7 @@ a:hover {
     }
 
     .jumbotron-fluid {
+       
         background-size: cover;
     }
 }
@@ -300,11 +317,25 @@ a:hover {
         margin-top: 6.5rem;
     }
 
+    .text {
+        font-size: 1.6rem;
+        line-height: 1.7;
+        letter-spacing: .05rem;
+        padding: .5rem;
+        height: 35rem;
+        overflow-y: scroll;
+    }
+
     .fa-envelope,
     .fa-github,
     .fa-linkedin-in,
     .fa-mobile-alt,
     .fa-file-alt {
         padding: 1rem;
+    }
+
+    .panel1,
+    .panel5 {
+        display: none;
     }
 }
