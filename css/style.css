@@ -134,7 +134,7 @@ nav {
 
 .display-4 {
     color: #1D3440;
-    font-size: 6rem;
+    font-size: 5.2rem;
     line-height: 1.5;
     margin-top: 1.5rem;
     letter-spacing: .1rem;
@@ -156,11 +156,11 @@ nav {
 }
 
 .text {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 2;
     letter-spacing: .05rem;
     padding: .5rem;
-    height: 35rem;
+    height: 52rem;
     overflow-y: scroll;
 }
 
