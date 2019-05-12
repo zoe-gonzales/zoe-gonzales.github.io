@@ -1,10 +1,9 @@
-
 // Code for panel toggle on index.html
 var panels = document.querySelectorAll(".panel");
 
 panels.forEach(function(panel){
-    if (panel.classList.contains('open-active')) {
-        panel.classList.remove('open-active');
+    if (panel.classList.contains("open-active")) {
+        panel.classList.remove("open-active");
     }
 })
 
