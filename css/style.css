@@ -84,16 +84,8 @@
     color: #8b0000;
 }
 
-.github:hover {
-    color: #C0E9FF;
-}
-
 .linkedin {
     color: #1D3440;
-}
-
-.linkedin:hover {
-    color: #C0E9FF;
 }
 
 /* ===================================================================== */
@@ -134,9 +126,9 @@ nav {
 
 .display-4 {
     color: #1D3440;
-    font-size: 5.2rem;
-    line-height: 1.5;
-    margin-top: 1.5rem;
+    font-size: 4.7rem;
+    line-height: 2;
+    margin-top: 2rem;
     letter-spacing: .1rem;
 }
 
@@ -268,7 +260,7 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     .display-4 {
-        font-size: 5.2rem;
+        font-size: 4rem;
         margin-top: 2.5rem;
     }
 
@@ -297,8 +289,8 @@ a:hover {
 
 @media screen and (max-width: 640px) {
     .display-4 {
-        font-size: 5rem;
-        margin-top: 3.5rem;
+        font-size: 4.1rem;
+        margin-top: 2.4rem;
     }
 
     .jumbotron-fluid {
@@ -309,17 +301,33 @@ a:hover {
 
 @media screen and (max-width: 410px) {
     .display-4 {
-        font-size: 3.5rem;
+        font-size: 3rem;
         margin-top: 6.5rem;
     }
 
     .text {
-        font-size: 1.6rem;
-        line-height: 1.7;
-        letter-spacing: .05rem;
+        font-size: 1.2rem;
+        line-height: 1.5;
         padding: .5rem;
         height: 35rem;
         overflow-y: scroll;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+    .card-text {
+        font-size: 1.1rem;
+    }
+
+    .card {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .btn-primary {
+        font-size: .8rem;
     }
 
     .fa-envelope,
