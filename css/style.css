@@ -33,33 +33,33 @@
 }
 
 .panel1 {
-    background-image: url(../images/landscape.jpg);
+    background-image: url(../images/round.png);
     box-shadow: inset 0 0 0 1000px rgba(135, 206, 235,.5);
     color: #8b0000;
 }
 
 .panel2 {
-    background-image: url(../images/trees.jpg);
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0,.2);
-    color: #FF9400;
+    background-image: url(../images/funky.png);
+    box-shadow: inset 0 0 0 1000px rgba(204,104,188,.5);
+    color: #644E80;
 }
 
 .panel3 {
-    background-image: url(../images/boulder.jpg);
-    box-shadow: inset 0 0 0 1000px rgba(16,64,16,.5);
+    background-image: url(../images/hypnotize.png);
+    box-shadow: inset 0 0 0 1000px rgba(52,83,179,.5);
     color: #C0E9FF;
 }
 
 .panel4 {
-    background-image: url(../images/clouds.jpg);
-    box-shadow: inset 0 0 0 1000px rgba(240,248,255,.3);
+    background-image: url(../images/waves.png);
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, .5);
     color: #3A677F;
 }
 
 .panel5 {
-    background-image: url(../images/flowers.jpg);
+    background-image: url(../images/blocks.png);
     box-shadow: inset 0 0 0 1000px rgba(255,142,179,.5);
-    color: #1D3440;
+    color: #1E9492;
 }
 
 .panel > *:first-child {transform: translateY(-100%);}
@@ -73,7 +73,7 @@
 }
 
 .panel p:nth-child(2) {
-    font-size: 3.2rem;
+    font-size: 2.7rem;
 }
 
 .welcome-icon {
@@ -85,7 +85,7 @@
 }
 
 .linkedin {
-    color: #1D3440;
+    color: #1E9492;
 }
 
 /* ===================================================================== */
@@ -97,11 +97,11 @@
 body {
     font-family: 'Didact Gothic', sans-serif;
     background-image: url(../images/background.png);
-    background-color: #FFC276;
+    background-color: #25BAB8;
 }
 
 nav {
-    background-color: #FFC276;
+    background-color: #25BAB8;
 }
 
 .navbar {
@@ -119,9 +119,9 @@ nav {
 
 .jumbotron-fluid {
     height: 30rem;
-    background-image: url(../images/jumbo.jpg);
-    background-color: #9abfc0;
-    background-size: 100% 100%;
+    background-image: url(../images/funky.png);
+    box-shadow: inset 0 0 0 1000px rgba(234,185,203,.5);
+    background-color: rgba(234,185,203,.5);
 }
 
 .display-4 {
@@ -135,7 +135,7 @@ nav {
 /* About section */
 .about {
     margin-top: -2rem;
-    background-color: #FFC276;
+    background-color: #25BAB8;
     color: #1D3440;
     padding-bottom: 7rem;
 }
@@ -166,10 +166,6 @@ nav {
     text-align: center;
 }
 
-.skill {
-    color: #CC6B48;
-}
-
 /* Projects */
 
 .projects {
@@ -187,21 +183,21 @@ nav {
 }
 
 .project-title {
-    color: #FFC276;
+    color: #FFC9CC;
     font-size: 3rem;
     margin: 3rem 0;
     letter-spacing: .1rem;
 }
 
 .btn {
-    background-color: rgba(204,107,72,.75);
-    border: 1px solid  rgb(204,107,72);
+    background-color:rgba(179,68,108,.75);
+    border: 2px solid rgba(179,68,108);
     margin: 0 .2rem;
     color: #1D3440;
 }
 
 .btn:hover {
-    background-color: #FFC276;
+    background-color: #25BAB8;
     border: 1px solid #1D3440;
     color: #1D3440;
 }
@@ -210,7 +206,7 @@ nav {
     margin: 1rem;
     width: 100%;
     font-size: 1.3rem;
-    background-color: #FFC276;
+    background-color: #25BAB8;
     color: rgba(29, 52, 64,.8);
     border: none;
 }
@@ -218,7 +214,7 @@ nav {
 /* Contact */
 
 .contact {
-    background-color: #A5DEFF;
+    background-color: #FFC9CC;
     padding-bottom: 2rem;
 }
 
@@ -243,7 +239,7 @@ nav {
 .fa-mobile-alt:hover,
 .fa-file-alt:hover,
 a:hover {
-    color: #CC6B48;
+    color: #B3446C;
 }
 
 .social {
@@ -252,7 +248,7 @@ a:hover {
 
 /* Footer */
 .footer {
-    background-color: #FFC276;
+    background-color: #1E9492;
     height: 2rem;
 }
 
