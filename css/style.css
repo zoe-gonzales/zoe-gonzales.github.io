@@ -152,7 +152,7 @@ nav {
     line-height: 2;
     letter-spacing: .05rem;
     padding: .5rem;
-    height: 52rem;
+    height: 59rem;
     overflow-y: scroll;
 }
 
@@ -173,7 +173,7 @@ nav {
 }
 
 .card-container {
-    height: 75rem;    
+    height: 80rem;    
     overflow-y: scroll;
 }
 
