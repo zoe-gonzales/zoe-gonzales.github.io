@@ -152,7 +152,7 @@ nav {
     line-height: 2;
     letter-spacing: .05rem;
     padding: .5rem;
-    height: 59rem;
+    height: 52rem;
     overflow-y: scroll;
 }
 
@@ -164,6 +164,11 @@ nav {
 .skills-heading {
     font-weight: bold;
     text-align: center;
+}
+
+.skill-icon {
+    height: 2.5rem;
+    width: 2.5rem;
 }
 
 /* Projects */
