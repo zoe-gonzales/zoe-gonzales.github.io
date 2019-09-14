@@ -196,7 +196,7 @@ nav {
 
 .btn {
     background-color:rgba(179,68,108,.75);
-    border: 2px solid rgba(179,68,108);
+    border: 1px solid rgba(179,68,108);
     margin: 0 .2rem;
     color: #1D3440;
 }
