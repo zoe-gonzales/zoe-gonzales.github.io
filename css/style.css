@@ -178,8 +178,8 @@ nav {
 }
 
 .card-container {
-    height: 80rem;    
-    overflow-y: scroll;
+    height: 140rem;    
+    /* overflow-y: scroll; */
 }
 
 .card-container::-webkit-scrollbar {
@@ -281,6 +281,10 @@ a:hover {
     .panel4 {
         display: none;
     }
+
+    .card-container {
+        overflow-y: scroll;
+    }
 }
 
 /* nav toggler on mobile screens */
@@ -322,7 +326,7 @@ a:hover {
     }
 
     .card {
-        width: 100%;
+        width: 90%;
         margin-right: auto;
         margin-left: auto;
     }
