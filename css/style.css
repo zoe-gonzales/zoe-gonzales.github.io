@@ -92,22 +92,27 @@
 
 /* Start of main.html */
 
+p {
+    font-size: 1.15rem;
+    color: #1D3440;
+}
+
 /* Navigation bar */
 
 body {
     font-family: 'Didact Gothic', sans-serif;
-    background-image: url(../images/background.png);
-    background-color: #25BAB8;
+    background-color: #24a6a4;
 }
 
 nav {
-    background-color: #25BAB8;
+    background-color: #24a6a4;
 }
 
 .navbar {
     position: fixed;
     width: 100%;
     z-index: 2;
+    margin-top: 2rem;
 }
 
 .navbar-brand,
@@ -115,13 +120,6 @@ nav {
     color: #1D3440;
     letter-spacing: .05rem;
     font-size: 1.3rem;
-}
-
-.jumbotron-fluid {
-    height: 30rem;
-    background-image: url(../images/funky.png);
-    box-shadow: inset 0 0 0 1000px rgba(234,185,203,.5);
-    background-color: rgba(234,185,203,.5);
 }
 
 .display-4 {
@@ -135,29 +133,32 @@ nav {
 /* About section */
 .about {
     margin-top: -2rem;
-    background-color: #25BAB8;
+    background-image: url(../images/funky.png);
+    box-shadow: inset 0 0 0 1000px rgba(255,255,230,.5);
+    background-color: #FFFFF0;
     color: #1D3440;
+    padding-top: 7rem;
     padding-bottom: 7rem;
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 3rem 0;
     color: #1D3440;
     letter-spacing: .1rem;
 }
 
 .text {
-    font-size: 1.6rem;
+    font-size: 1.25rem;
     line-height: 2;
     letter-spacing: .05rem;
     padding: .5rem;
-    height: 52rem;
+    height: 49rem;
     overflow-y: scroll;
 }
 
 .text::-webkit-scrollbar {
-    width: 6px;
+    width: 0;
     background-color: transparent;
 }
 
@@ -166,60 +167,87 @@ nav {
     text-align: center;
 }
 
-.skill-icon {
-    height: 2.5rem;
-    width: 2.5rem;
+.skill {
+    margin: .35rem 0;
 }
 
 /* Projects */
+.img-describe {
+    visibility: hidden;
+    margin-top: -13rem;
+}
+
+.img-wrap:hover .img-describe {
+    visibility: visible;
+}
+
+.img-wrap:hover .img-actual {
+    visibility: hidden;
+}
+
+.img-wrap {
+    margin: 2.5rem 0;
+}
 
 .projects {
     padding-bottom: 4rem;
 }
 
+.card-title {
+    color: #1D3440;
+    font-weight: bold;
+}
+
 .card-container {
-    height: 155rem;    
-    /* overflow-y: scroll; */
+    height: 88rem;    
 }
 
 .card-container::-webkit-scrollbar {
     width: 6px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
+}
+
+.current {
+    background-color: #24a6a4;
+}
+
+.current-link {
+    color: #FFFFF0;
+}
+
+.current-link:hover {
+    color: #1D3440;
+    text-decoration: none;
 }
 
 .project-title {
-    color: #FFC9CC;
-    font-size: 3rem;
+    color: #1D3440;
+    font-size: 2rem;
     margin: 3rem 0;
     letter-spacing: .1rem;
 }
 
 .btn {
-    background-color:rgba(179,68,108,.75);
-    border: 1px solid rgba(179,68,108);
+    font-size: .85rem;
+    background-color:rgba(29,52,64,.5);
+    border: 1px solid rgba(29,52,64);
     margin: 0 .2rem;
-    color: #1D3440;
+    color: rgba(255,255,240,.85);
 }
 
 .btn:hover {
-    background-color: #25BAB8;
-    border: 1px solid #1D3440;
-    color: #1D3440;
-}
-
-.card {
-    margin: 1rem;
-    width: 100%;
-    font-size: 1.3rem;
-    background-color: #25BAB8;
-    color: rgba(29, 52, 64,.8);
-    border: none;
+    background-color:rgba(29,52,64,.5);
+    border: 1px solid rgba(29,52,64);
+    color: rgba(255,255,240,.85);
+    transform: scale(1.05);
 }
 
 /* Contact */
 
 .contact {
-    background-color: #FFC9CC;
+    background-image: url(../images/funky.png);
+    box-shadow: inset 0 0 0 1000px rgba(255,255,230,.5);
+    background-color: #FFFFF0;
     padding-bottom: 2rem;
 }
 
@@ -241,10 +269,12 @@ nav {
 .fa-envelope:hover,
 .fa-github:hover,
 .fa-linkedin-in:hover,
-.fa-mobile-alt:hover,
-.fa-file-alt:hover,
+.fa-file-alt:hover {
+    color: #24a6a4;
+}
+
 a:hover {
-    color: #B3446C;
+    color: #FFFFF5;
 }
 
 .social {
@@ -253,7 +283,7 @@ a:hover {
 
 /* Footer */
 .footer {
-    background-color: #1E9492;
+    background-color: #24a6a4;
     height: 2rem;
 }
 
@@ -283,7 +313,16 @@ a:hover {
     }
 
     .card-container {
+        height: 66rem; 
         overflow-y: scroll;
+    }
+
+    .img-wrap {
+        margin: 1.5rem 0;
+    }
+
+    .wrap-current {
+        margin-bottom: 2rem;
     }
 }
 
@@ -296,11 +335,6 @@ a:hover {
     .display-4 {
         font-size: 4.1rem;
         margin-top: 2.4rem;
-    }
-
-    .jumbotron-fluid {
-       
-        background-size: cover;
     }
 }
 
@@ -321,6 +355,7 @@ a:hover {
     .card-title {
         font-size: 1rem;
     }
+
     .card-text {
         font-size: 1.1rem;
     }

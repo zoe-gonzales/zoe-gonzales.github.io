@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Z.Gonzales Portfolio</title>
-    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
     <!-- CSS Reset -->
     <link rel="stylesheet" href="css/reset.css">
     <!-- Font Awesome -->
@@ -48,16 +47,6 @@
           </ul>
         </div>
     </nav>
-    <!-- Jumbotron Title -->
-    <div class="jumbotron jumbotron-fluid" id="title">
-        <div class="container">
-            <h1 class="display-4">
-                Full Stack
-                <br>
-                Web Development
-            </h1>
-        </div>
-    </div>
     <!-- About Section -->
     <div class="jumbotron about rounded-0" id="about">
         <div class="container">
@@ -72,40 +61,44 @@
                         <div class="text">
                             <div class="container">
                                     <div class="row">
-                                            <p>
-                                                I'm a web developer with a curiosity for discovering how technology works and desire to learn something new every day. Prior to learning web development at the University of Denver, my experience working at quickly growing companies helped me gain strong skills in communication, teamwork, and problem solving. I enjoy getting to know my team members and collaborating on projects that make an impact, and am excited to continue doing so in the future.
+                                        <div class="col-md-8">
+                                                <p>
+                                                    I’m a web developer working in JavaScript, React, and Node. Driven by a curiosity for understanding how things work, I learn quickly and excel in fast-paced environments.
+                                                </p>
+                                                <p>
+                                                    After completing my bachelor's degree, I moved to New York where I landed my first permanent role at a startup. I immediately found myself in an environment where innovation was encouraged and where I saw designers and developers working on products used by employees, contractors, and clients across the company.  
+                                                </p>
+                                                <p>
+                                                    This experience planted a seed in my mind, and a desire to explore programming hasn't left it since. In 2018, I moved to Colorado and started the Full Stack Web Development bootcamp at the University of Denver.
+                                                </p>
+                                                <p>
+                                                    Since finishing the bootcamp, I've focused on sharpening my knowledge of algorithms, data structures, and other computer science topics. With this goal, it made sense to learn back end languages (I chose Go and Java). I love working on the back end but am equally excited by intuitive and efficient UI. In the future, I hope to grow into a full stack role.
+                                                </p>                                                
+                                        </div>
+                                            
+                                        <div class="col-md-4">
+                                            <p class="skills-heading text-center">
+                                                Technologies & Tools
                                             </p>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <p class="skills-heading"> - Skills -</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul>
-                                                    <li class="skill text-center">HTML - CSS</li>
-                                                    <li class="skill text-center">Bootstrap</li>
+                                            <ul>
+                                                    <li class="skill text-center">HTML</li>
+                                                    <li class="skill text-center">CSS</li>
+                                                    <li class="skill text-center">Boostrap</li>
                                                     <li class="skill text-center">Materialize</li>
-                                                    <li class="skill text-center">Media Queries</li>
-                                                    <li class="skill text-center">Handlebars</li>
-                                                    <li class="skill text-center">React.js</li>
-                                                    <li class="skill text-center">jQuery</li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <ul>
-                                                    <li class="skill text-center">JavaScript - Node.js</li>
+                                                    <li class="skill text-center">React</li>
+                                                    <li class="skill text-center">Redux</li>
+                                                    <li class="skill text-center">JavaScript</li>
+                                                    <li class="skill text-center">Node.js</li>
                                                     <li class="skill text-center">Golang</li>
                                                     <li class="skill text-center">Express.js</li>
                                                     <li class="skill text-center">SQL</li>
-                                                    <li class="skill text-center">MySQL - Sequelize</li>
-                                                    <li class="skill text-center">MongoDB - Mongoose</li>
-                                                    <li class="skill text-center">Git - Github</li>
-                                                </ul>
-                                            </div>
+                                                    <li class="skill text-center">MySQL</li>
+                                                    <li class="skill text-center">MongoDB</li>
+                                                    <li class="skill text-center">Git</li>
+                                                    <li class="skill text-center">Github</li>
+                                            </ul>
                                         </div>
-                                        
+                                        </div>
                                     </div>
                                     
                                 </div>
@@ -128,12 +121,13 @@
             <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">MeetUp Clone</h5>
-                                <p class="card-text">I am currently working on this project, which is a full stack web app with a Go back end and React front end. Check out the code so far below!</p>
-                                <a href="https://github.com/zoe-gonzales/meet-up-do-stuff" class="btn btn-primary" target="_blank">Github</a>
-                            </div>
+                        <div class="wrap-current">
+                            <h5 class="card-title">MeetUp Clone</h5>
+                            <p class="card-text">
+                                I am currently working on this project, which is a full stack web app with a Go back end and React front end. 
+                                Check out the code so far 
+                                <a href="https://github.com/zoe-gonzales/meet-up-do-stuff" class="current-link" target="_blank">here</a>!
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-1"></div>
@@ -142,22 +136,23 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-5">
-                    <div class="card">
-                        <img src="images/analyzer.png" class="card-img-top" alt="thumbnail">
-                        <div class="card-body">
-                            <h5 class="card-title">Language Analyzer</h5>
-                            <p class="card-text">Uses IBM's NLU API to analyze text based on keywords, categories, or emotions. Created with Go, Echo for the web server, and React.</p>
-                            <a href="https://github.com/zoe-gonzales/ibm-watson-language-analyzer" class="btn btn-primary" target="_blank">Github</a>
-                            <a href="https://languageanalyzer.herokuapp.com/" class="btn btn-primary" target="_blank">Live</a>
-                        </div>
+                    <div class="img-wrap">
+                            <img src="images/analyzer.png" class="rounded img-fluid img-actual" alt="thumbnail">
+                            <div class="img-describe">
+                                <h5 class="card-title">Language Analyzer</h5>
+                                <p>Uses IBM's NLU API to analyze text based on keywords, categories, or emotions. Created with Go, Echo for the web server, and React.</p>
+                                <a href="https://github.com/zoe-gonzales/ibm-watson-language-analyzer" class="btn btn-primary" target="_blank">Github</a>
+                                <a href="https://languageanalyzer.herokuapp.com/" class="btn btn-primary" target="_blank">Live</a>
+                            </div>
                     </div>
                 </div>
+
                 <div class="col-md-5">
-                    <div class="card">
-                        <img src="images/budget.png" class="card-img-top" alt="thumbnail">
-                        <div class="card-body">
+                    <div class="img-wrap">
+                        <img src="images/budget.png" class="rounded img-fluid img-actual" alt="thumbnail">
+                        <div class="img-describe">
                             <h5 class="card-title">Budget App</h5>
-                            <p class="card-text">Command line app allowing the user to add, view, update, and delete budgets and transactions linked to those budgets. Built with Go, MySQL, and SQL.</p>
+                            <p>Command line app allowing the user to add, view, update, and delete budgets and transactions linked to those budgets. Built with Go, MySQL, and SQL.</p>
                             <a href="https://github.com/zoe-gonzales/go-budget-it" class="btn btn-primary" target="_blank">Github</a>
                         </div>
                     </div>
@@ -168,25 +163,25 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-5">
-                    <div class="card">
-                        <img src="images/cyber.png" class="card-img-top" alt="thumbnail">
-                        <div class="card-body">
-                            <h5 class="card-title">Cyber Ed</h5>
-                            <p class="card-text">App designed to quiz the user on online privacy basics. Built with React, Node, Express, MongoDB, Mongoose, JSON Web Tokens, bcrypt, and PassportJS.</p>
+                    <div class="img-wrap">
+                        <img src="images/cyber.png" class="rounded img-fluid img-actual" alt="thumbnail">
+                        <div class="img-describe">
+                            <h5 class="card-title">Cyber Quiz</h5>
+                            <p>App designed to quiz the user on online privacy basics. Built with React, Node, Express, MongoDB, Mongoose, JSON Web Tokens, bcrypt, and PassportJS.</p>
                             <a href="https://github.com/zoe-gonzales/cyber-ed" class="btn btn-primary" target="_blank">Github</a>
                             <a href="https://cyber-ed.herokuapp.com/" class="btn btn-primary" target="_blank">Live</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="card">
-                            <img src="images/journey.png" class="card-img-top" alt="thumbnail">
-                            <div class="card-body">
-                                <h5 class="card-title">Shelter Manager</h5>
-                                <p class="card-text">Built in a team of 6, this app enables animal shelters to manage incoming animals and donations. Tools used: React, MongoDB, Mongoose, AuthO, pdfkit, Bootstrap</p>
-                                <a href="https://github.com/zoe-gonzales/shelter-manager" class="btn btn-primary" target="_blank">Github</a>
-                                <a href="https://journey-shelter-manager.herokuapp.com/" class="btn btn-primary" target="_blank">Live</a>
-                            </div>
+                    <div class="img-wrap">
+                        <img src="images/journey.png" class="rounded img-fluid img-actual" alt="thumbnail">
+                        <div class="img-describe">
+                            <h5 class="card-title">Shelter Manager</h5>
+                            <p>Built in a team of 6, this app enables animal shelters to manage incoming animals and donations. Tools used include: React, MongoDB, Mongoose, AuthO, pdfkit, Bootstrap</p>
+                            <a href="https://github.com/zoe-gonzales/shelter-manager" class="btn btn-primary" target="_blank">Github</a>
+                            <a href="https://journey-shelter-manager.herokuapp.com/" class="btn btn-primary" target="_blank">Live</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-1"></div>
@@ -195,22 +190,22 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-5">
-                    <div class="card">
-                        <img src="images/books.png" class="card-img-top" alt="thumbnail">
-                        <div class="card-body">
+                    <div class="img-wrap">
+                        <img src="images/books.png" class="rounded img-fluid img-actual" alt="thumbnail">
+                        <div class="img-describe">
                             <h5 class="card-title">Google Books Search</h5>
-                            <p class="card-text">Full Stack (MERN) app that allows users to search and save books from the Google Books API. Built with MongoDB, Mongoose, React, Express, Foundation, and Socket.io.</p>
+                            <p>Full Stack (MERN) app that allows users to search and save books from the Google Books API. Built with MongoDB, Mongoose, React, Express, Foundation, and Socket.io.</p>
                             <a href="https://github.com/zoe-gonzales/google-books" class="btn btn-primary" target="_blank">Github</a>
                             <a href="https://gbookssearch.herokuapp.com/" class="btn btn-primary" target="_blank">Live</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="card">
-                        <img src="images/click.png" class="card-img-top" alt="thumbnail">
-                        <div class="card-body">
-                            <h5 class="card-title">Click challenge</h5>
-                            <p class="card-text">Beatles-themed memory app created with React. The goal of the game is to get the highest score possible without clicking an album cover more than once.</p>
+                    <div class="img-wrap">
+                        <img src="images/click.png" class="rounded img-fluid img-actual" alt="thumbnail">
+                        <div class="img-describe">
+                            <h5 class="card-title">Click Challenge</h5>
+                            <p>Beatles-themed memory app created with React. The goal of the game is to get the highest score possible without clicking an album cover more than once.</p>
                             <a href="https://github.com/zoe-gonzales/click-challenge" class="btn btn-primary" target="_blank">Github</a>
                             <a href="https://zoe-gonzales.github.io/click-challenge/" class="btn btn-primary" target="_blank">Live</a>
                         </div>
@@ -222,22 +217,22 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-5">
-                    <div class="card">
-                        <img src="images/scraper.png" class="card-img-top" alt="thumbnail">
-                        <div class="card-body">
+                    <div class="img-wrap">
+                        <img src="images/scraper.png" class="rounded img-fluid img-actual" alt="thumbnail">
+                        <div class="img-describe">
                             <h5 class="card-title">News Scraper</h5>
-                            <p class="card-text">App made with MongoDB, Mongoose, and Cheerio that scrapes and displays headlines from Wired.com, allowing the user to star and comment on each one.</p>
+                            <p>App made with MongoDB, Mongoose, and Cheerio that scrapes and displays headlines from Wired.com, allowing the user to star and comment on each one.</p>
                             <a href="https://github.com/zoe-gonzales/news-scraper" class="btn btn-primary" target="_blank">Github</a>
                             <a href="https://desolate-stream-48224.herokuapp.com/" class="btn btn-primary" target="_blank">Live</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="card">
-                        <img src="images/liri.png" class="card-img-top" alt="thumbnail">
-                        <div class="card-body">
-                            <h5 class="card-title">Liri-bot</h5>
-                            <p class="card-text">Node CLI that provides a range of information about movies, concerts, songs, translations, and quotes. APIs used: Spotify, BandsInTown, OMDB, and IBM Language Translator.</p>
+                    <div class="img-wrap">
+                        <img src="images/liri.png" class="rounded img-fluid img-actual" alt="thumbnail">
+                        <div class="img-describe">
+                            <h5 class="card-title">Liri Bot</h5>
+                            <p>Node CLI that provides a range of information about movies, concerts, songs, translations, and quotes. APIs used: Spotify, BandsInTown, OMDB, and IBM Language Translator.</p>
                             <a href="https://github.com/zoe-gonzales/liri-bot" class="btn btn-primary" target="_blank">Github</a>
                         </div>
                     </div>
@@ -263,7 +258,6 @@
                     <a href="https://github.com/zoe-gonzales" target="_blank"><i class="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/zoegonzales/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     <a href="Resume_Zoe_Gonzales.pdf" target="_blank" download><i class="far fa-file-alt"></i></a>
-                    <a href="tel:917-244-1814" target="_blank"><i class="fas fa-mobile-alt"></i></a>
                 </div>
                 <div class="col-md-1"></div>
             </div>
