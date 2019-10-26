@@ -30,36 +30,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #1D3440;
 }
 
 .panel1 {
     background-image: url(../images/round.png);
-    box-shadow: inset 0 0 0 1000px rgba(135, 206, 235,.5);
-    color: #8b0000;
+    box-shadow: inset 0 0 0 1000px rgba(36,166,164,.5);
 }
 
 .panel2 {
-    background-image: url(../images/funky.png);
-    box-shadow: inset 0 0 0 1000px rgba(204,104,188,.5);
-    color: #644E80;
+    background-image: url(../images/tictac.png);
+    box-shadow: inset 0 0 0 1000px rgba(255,255,215,.5);
 }
 
 .panel3 {
     background-image: url(../images/hypnotize.png);
-    box-shadow: inset 0 0 0 1000px rgba(52,83,179,.5);
-    color: #C0E9FF;
+    box-shadow: inset 0 0 0 1000px rgba(36,166,164,.4);
 }
 
 .panel4 {
     background-image: url(../images/waves.png);
-    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, .5);
-    color: #3A677F;
+    box-shadow: inset 0 0 0 1000px rgba(255,255,215,.5);
 }
 
 .panel5 {
     background-image: url(../images/blocks.png);
-    box-shadow: inset 0 0 0 1000px rgba(255,142,179,.5);
-    color: #1E9492;
+    box-shadow: inset 0 0 0 1000px rgba(36,166,164,.5);
 }
 
 .panel > *:first-child {transform: translateY(-100%);}
@@ -80,12 +76,9 @@
     font-size: 3.5rem;
 }
 
-.github {
-    color: #8b0000;
-}
-
+.github,
 .linkedin {
-    color: #1E9492;
+    color: #1D3440;
 }
 
 /* ===================================================================== */
@@ -152,7 +145,6 @@ nav {
     font-size: 1.25rem;
     line-height: 2;
     letter-spacing: .05rem;
-    padding: .5rem;
     height: 49rem;
     overflow-y: scroll;
 }
@@ -254,14 +246,13 @@ nav {
 .fa-envelope,
 .fa-github,
 .fa-linkedin-in {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-right: 2.5rem;
     color: #1D3440;
 }
 
-.fa-mobile-alt,
 .fa-file-alt {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-right: 3rem;
     color: #1D3440;
 }
@@ -278,7 +269,7 @@ a:hover {
 }
 
 .social {
-    margin: 0 2rem 2rem 1rem; 
+    margin: 0 2rem 2rem 0; 
 }
 
 /* Footer */
@@ -288,6 +279,8 @@ a:hover {
 }
 
 /* Media Queries */
+
+/* Portrait on iPad/tablet */
 
 @media screen and (max-width: 768px) {
     .display-4 {
@@ -331,12 +324,16 @@ a:hover {
     color: #1D3440;
 }
 
+/* Landscape on phone */
+
 @media screen and (max-width: 640px) {
     .display-4 {
         font-size: 4.1rem;
         margin-top: 2.4rem;
     }
 }
+
+/* Portrait on phone */
 
 @media screen and (max-width: 410px) {
     .display-4 {
