@@ -1,0 +1,85 @@
+$blue-shadow: inset 0 0 0 1000px rgba(36,166,164,.5);
+$off-white-shadow: inset 0 0 0 1000px rgba(255,255,215,.5);
+$blue-shadow-light: inset 0 0 0 1000px rgba(36,166,164,.4);
+
+.panels {
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.panel {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    transition: 
+        font-size .3s,
+        flex .3s;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2.5rem;
+    background-size: cover;
+}
+
+.panel > * {
+    margin: 0;
+    width: 100%;
+    transition:transform 0.5s;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D3440;
+}
+
+.panel1 {
+    background-image: url(../images/round.png);
+    box-shadow: $blue-shadow;
+}
+
+.panel2 {
+    background-image: url(../images/tictac.png);
+    box-shadow: $off-white-shadow;
+}
+
+.panel3 {
+    background-image: url(../images/hypnotize.png);
+    box-shadow: $blue-shadow-light;
+}
+
+.panel4 {
+    background-image: url(../images/waves.png);
+    box-shadow: $off-white-shadow;
+}
+
+.panel5 {
+    background-image: url(../images/blocks.png);
+    box-shadow: $blue-shadow;
+}
+
+.panel > *:first-child {transform: translateY(-100%);}
+.panel.open-active > *:first-child {transform: translateY(0);}
+.panel > *:last-child {transform: translateY(100%);}
+.panel.open-active > *:last-child {transform: translateY(0);}
+
+.panel.open {
+    flex: 8;
+    font-size: 2.5rem;
+}
+
+.panel p:nth-child(2) {
+    font-size: 2.7rem;
+}
+
+.welcome-icon {
+    font-size: 3.5rem;
+}
+
+.github,
+.linkedin {
+    color: #1D3440;
+}

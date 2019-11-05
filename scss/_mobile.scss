@@ -1,0 +1,97 @@
+/* Portrait on iPad/tablet */
+@media screen and (max-width: 768px) {
+    .display-4 {
+        font-size: 4rem;
+        margin-top: 2.5rem;
+    }
+
+    .welcome-icon {
+        font-size: 2.5rem;
+    }
+
+    .panel p:nth-child(2) {
+        font-size: 2.5rem;
+    }
+
+    .panel {
+        font-size: 1.75rem;
+    }    
+
+    .panel2,
+    .panel4 {
+        display: none;
+    }
+
+    .card-container {
+        height: 66rem; 
+        overflow-y: scroll;
+    }
+
+    .img-wrap {
+        margin: 1.5rem 0;
+    }
+
+    .wrap-current {
+        margin-bottom: 2rem;
+    }
+}
+
+/* nav toggler on mobile screens */
+.fa-sistrix {
+    color: #1D3440;
+}
+
+/* Landscape on phone */
+@media screen and (max-width: 640px) {
+    .display-4 {
+        font-size: 4.1rem;
+        margin-top: 2.4rem;
+    }
+}
+
+/* Portrait on phone */
+@media screen and (max-width: 410px) {
+    .display-4 {
+        font-size: 3rem;
+        margin-top: 6.5rem;
+    }
+
+    .text {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        padding: .5rem;
+        height: 35rem;
+        overflow-y: scroll;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 1.1rem;
+    }
+
+    .card {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .btn-primary {
+        font-size: .8rem;
+    }
+
+    .fa-envelope,
+    .fa-github,
+    .fa-linkedin-in,
+    .fa-mobile-alt,
+    .fa-file-alt {
+        padding: 1rem;
+    }
+
+    .panel1,
+    .panel5 {
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+nav {
+    background-color: #24a6a4;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    margin-top: 2rem;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #1D3440;
+    letter-spacing: .05rem;
+    font-size: 1.3rem;
+}
+
+.display-4 {
+    color: #1D3440;
+    font-size: 4.7rem;
+    line-height: 2;
+    margin-top: 2rem;
+    letter-spacing: .1rem;
+}

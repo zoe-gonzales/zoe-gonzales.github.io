@@ -1,0 +1,17 @@
+@import 'panels';
+@import 'nav';
+@import 'about';
+@import 'projects';
+@import 'contact';
+@import 'footer';
+@import 'mobile';
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #24a6a4;
+}
+
+p {
+    font-size: 1.15rem;
+    color: #1D3440;
+}

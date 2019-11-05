@@ -1,0 +1,75 @@
+$off-white: #FFFFF0;
+$off-black: #1D3440; // 1d3440
+$teal-theme: #24a6a4;
+$off-black-background: rgba(29,52,64,.5);
+$off-black-text: rgba(255,255,240,.85);
+
+.img-describe {
+    visibility: hidden;
+    margin-top: -13rem;
+}
+
+.img-wrap:hover .img-describe {
+    visibility: visible;
+}
+
+.img-wrap:hover .img-actual {
+    visibility: hidden;
+}
+
+.img-wrap {
+    margin: 2.5rem 0;
+}
+
+.projects {
+    padding-bottom: 4rem;
+}
+
+.card-title {
+    color: $off-black;
+    font-weight: bold;
+}
+
+.card-container {
+    height: 88rem;    
+}
+
+.card-container::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+.current {
+    background-color: $teal-theme;
+}
+
+.current-link {
+    color: $off-white;
+}
+
+.current-link:hover {
+    color: $off-black;
+    text-decoration: none;
+}
+
+.project-title {
+    color: $off-black;
+    font-size: 2rem;
+    margin: 3rem 0;
+    letter-spacing: .1rem;
+}
+
+.btn {
+    font-size: .85rem;
+    background-color:$off-black-background;
+    border: 1px solid $off-black;
+    margin: 0 .2rem;
+    color: $off-black-text;
+}
+
+.btn:hover {
+    background-color:$off-black-background;
+    border: 1px solid $off-black;
+    color: $off-black-text;
+    transform: scale(1.05);
+}

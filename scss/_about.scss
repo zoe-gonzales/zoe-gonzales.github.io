@@ -1,0 +1,38 @@
+.about {
+    margin-top: -2rem;
+    background-image: url(../images/funky.png);
+    box-shadow: inset 0 0 0 1000px rgba(255,255,230,.5);
+    background-color: #FFFFF0;
+    color: #1D3440;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 3rem 0;
+    color: #1D3440;
+    letter-spacing: .1rem;
+}
+
+.text {
+    font-size: 1.25rem;
+    line-height: 2;
+    letter-spacing: .05rem;
+    height: 49rem;
+    overflow-y: scroll;
+}
+
+.text::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+}
+
+.skills-heading {
+    font-weight: bold;
+    text-align: center;
+}
+
+.skill {
+    margin: .35rem 0;
+}

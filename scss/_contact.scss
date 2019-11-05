@@ -1,0 +1,39 @@
+$off-white: #FFFFF0;
+$off-black: #1D3440;
+$teal-theme: #24a6a4;
+
+.contact {
+    background-image: url(../images/funky.png);
+    box-shadow: inset 0 0 0 1000px rgba(255,255,230,.5);
+    background-color: $off-white;
+    padding-bottom: 2rem;
+}
+
+.fa-envelope,
+.fa-github,
+.fa-linkedin-in {
+    font-size: 2.5rem;
+    padding-right: 2.5rem;
+    color: $off-black;
+}
+
+.fa-file-alt {
+    font-size: 2rem;
+    padding-right: 3rem;
+    color: $off-black;
+}
+
+.fa-envelope:hover,
+.fa-github:hover,
+.fa-linkedin-in:hover,
+.fa-file-alt:hover {
+    color: $teal-theme;
+}
+
+a:hover {
+    color: $off-white;
+}
+
+.social {
+    margin: 0 2rem 2rem 0; 
+}
